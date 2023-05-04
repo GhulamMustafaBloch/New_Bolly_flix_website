@@ -30,8 +30,8 @@ body {
     height: 800px;
     background-color: #434343;
     position: relative;
-    width: 73%;
-    left: -73%;
+    width: 73vw;
+    left: -73vw;
     transition: all 1s ease-in;
     display: none;
 }
