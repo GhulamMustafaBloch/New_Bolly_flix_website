@@ -1,0 +1,132 @@
+@media(max-width:840px){
+    .home_page .content_box{
+        width: 150px;
+    }
+    .home_page .content_box img{
+        width: 150px;
+    }
+    .alert{
+        height: 90px;
+    }
+    .alert center{
+        text-align: left;
+    }
+    .closebtn{
+        right: 0;
+    }
+    .header {
+        height: auto;
+    }
+    .header .container{
+        justify-content: center;height: auto;
+    }
+    .container .inp input{
+        width: 300px;
+    }
+    .inp{
+        margin-top: 20px;
+    }
+    .container .header_social, .container .inp, .nav_links  {
+        margin-top: 15px;
+    }
+    .header .drop_down{
+        cursor: pointer;
+        position: relative;
+    }
+    .drop_down .menu{
+        display: block;
+    }
+    .header .drop_down .nav_links {
+        width: 60vw;
+        height: 0;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        /* display: none; */
+        transition: 1s;
+        opacity: 0;
+        overflow: hidden;
+    }
+    .mobail_device .nav_links li{
+        margin-left: 30px;
+        z-index: 3;
+    }
+    .mobail_device.show{
+        display: block;
+        left: 0;
+        transition: all 1s;
+        z-index: 3;
+    }
+    .main_container{
+        margin-left: 5px;
+    }
+    .main .mobail_device .nav_links li i{
+        position: absolute;
+        left: 515px;
+        color: azure;
+        cursor: pointer;
+    }
+    .main .mobail_device .nav_links li ul li{
+        width: 406px;
+    }
+    .main .mobail_device .nav_links li{
+        width: 574px;
+        z-index: 5;
+
+    }
+    .active.show{
+        display: none;
+    }
+    .main .mobail_device .nav_links li ul{
+        margin-left: 110px;
+        margin-top: 0;
+    }
+    .main_container.show{
+        left: 70%;
+        top: -800px;
+        /* left: 0; */
+    }
+    .body.show{
+        overflow: hidden;
+    }
+    .mobail_device{
+        overflow-x: scroll;
+        /* overflow: visible; */
+    }
+    .mobail_device .nav_links li ul{
+    }
+    .container .header_social{
+        margin-bottom: 20px;
+    }
+    .link_section{
+        height: auto;
+        padding: 20px;
+    }
+    .link_section a{
+        margin-top: 5px;
+    }
+.bars{
+    display: block;
+    position: absolute;
+    right: 0;
+}
+.footer{
+    height: 150px;
+}
+.footer p{
+    padding-top: 40px;
+}
+    .footer ul{
+        justify-content: center;
+    }
+    .footer ul li {
+        margin-top: 10px;
+    }
+    .footer ul li:first-child i{
+        top: -85px;
+        left: 160px;
+
+    }
+}
