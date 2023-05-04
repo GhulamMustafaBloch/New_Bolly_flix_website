@@ -91,6 +91,10 @@
     .body.show{
         overflow: hidden;
     }
+    .mobail_device{
+        overflow-x: scroll;
+        /* overflow: visible; */
+    }
     .mobail_device .nav_links li ul{
     }
     .container .header_social{
